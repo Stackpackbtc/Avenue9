@@ -15,7 +15,7 @@
 
   <header class="site-header">
     <button class="menu-button" aria-label="Open menu" id="menuButton"><span></span><span></span></button>
-    <a class="wordmark" href="#top" aria-label="Avenue 9 home">A9</a>
+    <a class="wordmark" href="#top" aria-label="Avenue 9 home"><strong>A9</strong><small>AVENUE 9</small></a>
     <button class="bag-button" aria-label="Open shopping bag">BAG <span id="bagCount">0</span></button>
   </header>
 
@@ -36,17 +36,21 @@
         <p class="eyebrow">EST. 2026 · BOSTON</p>
         <h1>RARE<br><em>LIVES</em><br>HERE.</h1>
         <p class="hero-text">A curated destination for designer pieces, streetwear and hard-to-find fashion.</p>
-        <a class="button" href="#new">ENTER THE COLLECTION <span>↘</span></a>
+        <div class="hero-actions">
+          <a class="button" href="#new">ENTER THE COLLECTION <span>↘</span></a>
+          <a class="text-link" href="#about">THE A9 STORY ↗</a>
+        </div>
       </div>
       <div class="hero-art" aria-label="Avenue 9 editorial visual">
         <div class="art-grid"></div>
         <div class="art-label">A9 / 001<br>AVENUE 9</div>
         <div class="art-number">09</div>
+        <div class="art-stamp">RARE<br>ONLY</div>
       </div>
     </section>
 
     <section class="ticker" aria-label="Avenue 9 categories">
-      <div>DESIGNER</div><span>✦</span><div>STREETWEAR</div><span>✦</span><div>RARE FINDS</div><span>✦</span><div>ARCHIVE</div><span>✦</span>
+      <div>DESIGNER</div><span>✦</span><div>STREETWEAR</div><span>✦</span><div>RARE FINDS</div><span>✦</span><div>ARCHIVE</div><span>✦</span><div>AVENUE 9</div>
     </section>
 
     <section class="collection" id="new">
@@ -56,19 +60,19 @@
       </div>
       <div class="product-grid">
         <article class="product-card" data-product="A9 Signature Bomber">
-          <div class="product-image product-image-1"><span>A9</span><small>EDITORIAL 001</small></div>
+          <div class="product-image product-image-1"><span>A9</span><small>EDITORIAL 001</small><b>NEW</b></div>
           <div class="product-info"><div><h3>A9 SIGNATURE BOMBER</h3><p>AVENUE 9 · BLACK</p></div><strong>$240</strong></div>
         </article>
         <article class="product-card" data-product="Archive Leather Jacket">
-          <div class="product-image product-image-2"><span>ARCHIVE</span><small>FOUND / 09</small></div>
+          <div class="product-image product-image-2"><span>ARCHIVE</span><small>FOUND / 09</small><b>ONE OF ONE</b></div>
           <div class="product-info"><div><h3>ARCHIVE LEATHER JACKET</h3><p>CURATED · ONE OF ONE</p></div><strong>$480</strong></div>
         </article>
         <article class="product-card" data-product="Avenue Knit">
-          <div class="product-image product-image-3"><span>09</span><small>ESSENTIAL 003</small></div>
+          <div class="product-image product-image-3"><span>09</span><small>ESSENTIAL 003</small><b>ESSENTIAL</b></div>
           <div class="product-info"><div><h3>AVENUE KNIT</h3><p>A9 ESSENTIALS · CREAM</p></div><strong>$160</strong></div>
         </article>
         <article class="product-card" data-product="Rare Denim">
-          <div class="product-image product-image-4"><span>RARE</span><small>DENIM / 004</small></div>
+          <div class="product-image product-image-4"><span>RARE</span><small>DENIM / 004</small><b>LIMITED</b></div>
           <div class="product-info"><div><h3>RARE DENIM</h3><p>ARCHIVE FIT · INDIGO</p></div><strong>$210</strong></div>
         </article>
       </div>
@@ -85,9 +89,15 @@
     </section>
 
     <section class="archive" id="archive"><p class="eyebrow">05 / THE ARCHIVE</p><h2>PAST. PRESENT.<br>STILL <em>RARE.</em></h2><p>Pieces move fast. The archive keeps the story.</p><a class="text-link" href="#">ENTER THE ARCHIVE ↗</a></section>
+
+    <section class="newsletter-preview">
+      <p class="eyebrow">06 / A9 MEMBERS</p>
+      <h2>FIRST ACCESS.<br>RARE PIECES.</h2>
+      <p>Join the Avenue 9 list for private drops, new arrivals and archive releases before they move.</p>
+    </section>
   </main>
 
-  <footer class="footer"><div class="footer-top"><div class="footer-logo">A9</div><div><p class="eyebrow">STAY IN THE LOOP</p><form id="signupForm"><input type="email" placeholder="YOUR EMAIL" aria-label="Email address" required><button type="submit">JOIN ↗</button></form><p class="form-note" id="formNote"></p></div></div><div class="footer-bottom"><span>© 2026 AVENUE 9</span><span>BOSTON · MA</span><span>INSTAGRAM · CONTACT</span></div></footer>
+  <footer class="footer"><div class="footer-top"><div class="footer-brand"><div class="footer-logo">A9</div><p>AVENUE 9</p><small>RARE LIVES HERE.</small></div><div><p class="eyebrow">STAY IN THE LOOP</p><form id="signupForm"><input type="email" placeholder="YOUR EMAIL" aria-label="Email address" required><button type="submit">JOIN ↗</button></form><p class="form-note" id="formNote"></p></div></div><div class="footer-bottom"><span>© 2026 AVENUE 9</span><span>BOSTON · MA</span><span>INSTAGRAM · CONTACT</span></div></footer>
 
   <script src="script.js"></script>
 </body>
